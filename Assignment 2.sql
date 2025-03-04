@@ -43,5 +43,3 @@ UNION ALL
 SELECT NULL AS vendor_id, SUM(invoice_total) AS total_invoice_amount
 FROM invoices
 ORDER BY vendor_id ASC;
-
-show tables;
